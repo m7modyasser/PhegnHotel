@@ -24,7 +24,7 @@ public class Booking {
 
     @Min(value = 1,message="Number of adults must not be less that 1")
     private int numOfAdults;
-    @Min(value = 1,message="Number of childern must not be less that 0")
+    @Min(value = 0,message="Number of childern must not be less that 0")
     private int numOfChildren;
 
     private int totalNumOfGuest;
